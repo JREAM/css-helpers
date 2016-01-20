@@ -1,0 +1,163 @@
+/**
+ * Spacers
+ * Example: <div class="spacer-20"></div>
+ */
+div.spacer-20 {height: 20px;}
+div.spacer-40 {height: 40px;}
+div.spacer-60 {height: 60px;}
+div.spacer-80 {height: 80px;}
+div.spacer-100 {height: 100px;}
+
+/**
+ * Padding Classes
+ * Example: <div class="padding-10">I feel padded</div>;
+ */
+.padding-0, .padding-none {padding: 0 !important;}
+.padding-0-top {padding-top: 0;}
+.padding-0-bottom {padding-bottom: 0;}
+.padding-0-left {padding-left: 0;}
+.padding-0-right {padding-right: 0;}
+
+.padding-10 {padding: 10px;}
+.padding-10-top {padding-top: 10px;}
+.padding-10-bottom {padding-bottom: 10px;}
+.padding-10-left {padding-left: 10px;}
+.padding-10-right {padding-right: 10px;}
+
+.padding-20 {padding: 20px;}
+.padding-20-top {padding-top: 20px;}
+.padding-20-bottom {padding-bottom: 20px;}
+.padding-20-left {padding-left: 20px;}
+.padding-20-right {padding-right: 20px;}
+
+.padding-30 {padding: 30px;}
+.padding-30-top {padding-top: 30px;}
+.padding-30-bottom {padding-bottom: 30px;}
+.padding-30-left {padding-left: 30px;}
+.padding-30-right {padding-right: 30px;}
+
+.padding-40 {padding: 40px;}
+.padding-40-top {padding-top: 40px;}
+.padding-40-bottom {padding-bottom: 40px;}
+.padding-40-left {padding-left: 40px;}
+.padding-40-right {padding-right: 40px;}
+
+/**
+ * Margin Classes
+ * Example: <div class="margin-10-left">I feel pushed</div>;
+ */
+.margin-0, .margin-none {margin: 0px !important;}
+.margin-0-top {margin-top: 0px;}
+.margin-0-bottom {margin-bottom: 0px;}
+.margin-0-left {margin-left: 0px;}
+.margin-0-right {margin-right: 0px;}
+
+.margin-10 {margin: 10px;}
+.margin-10-top {margin-top: 10px;}
+.margin-10-bottom {margin-bottom: 10px;}
+.margin-10-left {margin-left: 10px;}
+.margin-10-right {margin-right: 10px;}
+
+.margin-20 {margin: 10px;}
+.margin-20-top {margin-top: 10px;}
+.margin-20-bottom {margin-bottom: 10px;}
+.margin-20-left {margin-left: 10px;}
+.margin-20-right {margin-right: 10px;}
+
+.margin-30 {margin: 30px;}
+.margin-30-top {margin-top: 30px;}
+.margin-30-bottom {margin-bottom: 30px;}
+.margin-30-left {margin-left: 30px;}
+.margin-30-right {margin-right: 30px;}
+
+.margin-40 {margin: 40px;}
+.margin-40-top {margin-top: 40px;}
+.margin-40-bottom {margin-bottom: 40px;}
+.margin-40-left {margin-left: 40px;}
+.margin-40-right {margin-right: 40px;}
+
+/**
+ * Font sizes (Primary for icons)
+ * Example: <p class="font-30">This Content is Legit</p>;
+ */
+.font-10 {font-size: 10px;}
+.font-12 {font-size: 12px;}
+.font-14 {font-size: 14px;}
+.font-16 {font-size: 16px;}
+.font-18 {font-size: 18px;}
+.font-20 {font-size: 20px;}
+.font-22 {font-size: 22px;}
+.font-24 {font-size: 24px;}
+.font-26 {font-size: 26px;}
+.font-28 {font-size: 28px;}
+.font-30 {font-size: 30px;}
+.font-32 {font-size: 32px;}
+.font-34 {font-size: 34px;}
+.font-36 {font-size: 36px;}
+.font-38 {font-size: 38px;}
+.font-40 {font-size: 40px;}
+.font-42 {font-size: 42px;}
+.font-44 {font-size: 44px;}
+.font-46 {font-size: 46px;}
+.font-48 {font-size: 48px;}
+.font-50 {font-size: 50px;}
+.font-52 {font-size: 52px;}
+.font-54 {font-size: 54px;}
+.font-56 {font-size: 56px;}
+.font-58 {font-size: 58px;}
+.font-60 {font-size: 60px;}
+
+/**
+ * Display Modes
+ * Example: <span class="inline-block">Hello</span>
+ */
+.block {display: block;}
+.inline {display: inline;}
+.inline-block {display: inline-block;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+
+/**
+ * Filters
+ *
+ * Lowest Working Versions:
+ * - Firefox 35
+ * - Chrome 18  (webkit)
+ * - Safari 7   (webkit)
+ * - Opera 15   (webkit)
+ * - IE: None   (opacity works for 9+)
+ *
+ * Example: <img src="img.jpg" class="grayscale">;
+ */
+.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.sepia {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+.blur-1 {filter: blur(1px); -webkit-filter: blur(1px);}
+.blur-2 {filter: blur(2px); -webkit-filter: blur(2px);}
+.blur-3 {filter: blur(3px); -webkit-filter: blur(3px);}
+.blur-4 {filter: blur(4px); -webkit-filter: blur(4px);}
+.blur-5 {filter: blur(5px); -webkit-filter: blur(5px);}
+.blur-6 {filter: blur(6px); -webkit-filter: blur(6px);}
+.blur-7 {filter: blur(7px); -webkit-filter: blur(7px);}
+.blur-8 {filter: blur(8px); -webkit-filter: blur(8px);}
+.blur-9 {filter: blur(9px); -webkit-filter: blur(9px);}
+.blur-10 {filter: blur(10px); -webkit-filter: blur(10px);}
+
+.opacity-10 {filter: opacity(0.1); -webkit-filter: opacity(0.1);}
+.opacity-20 {filter: opacity(0.2); -webkit-filter: opacity(0.2);}
+.opacity-30 {filter: opacity(0.3); -webkit-filter: opacity(0.3);}
+.opacity-40 {filter: opacity(0.4); -webkit-filter: opacity(0.4);}
+.opacity-50 {filter: opacity(0.5); -webkit-filter: opacity(0.5);}
+.opacity-60 {filter: opacity(0.6); -webkit-filter: opacity(0.6);}
+.opacity-70 {filter: opacity(0.7); -webkit-filter: opacity(0.7);}
+.opacity-80 {filter: opacity(0.8); -webkit-filter: opacity(0.8);}
+.opacity-90 {filter: opacity(0.9); -webkit-filter: opacity(0.9);}
+
+.filter-none {filter: none; -webkit-filter: none;}
